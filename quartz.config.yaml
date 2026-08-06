@@ -44,12 +44,18 @@ plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: created
       priority:
         - frontmatter
         - git
         - filesystem
     order: 10
+  - source: "./plugins/git-created-date"
+    enabled: true
+    order: 11
+  - source: "./plugins/blank-line-breaks"
+    enabled: true
+    order: 15
   - source: "@quartz-community/syntax-highlighting"
     enabled: true
     options:
