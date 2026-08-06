@@ -50,6 +50,9 @@ plugins:
         - git
         - filesystem
     order: 10
+  - source: "./plugins/git-created-date"
+    enabled: true
+    order: 11
   - source: "./plugins/blank-line-breaks"
     enabled: true
     order: 15
