@@ -1,6 +1,6 @@
 {
   "name": "git-created-date",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sets the created date of a page from the earliest git commit that touched the file, instead of the build-time filesystem timestamp",
   "type": "module",
   "license": "MIT",
