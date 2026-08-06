@@ -50,6 +50,9 @@ plugins:
         - git
         - filesystem
     order: 10
+  - source: "./plugins/blank-line-breaks"
+    enabled: true
+    order: 15
   - source: "@quartz-community/syntax-highlighting"
     enabled: true
     options:
