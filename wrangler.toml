@@ -1,5 +1,11 @@
 name = "blog"
 compatibility_date = "2026-08-05"
+main = "worker.js"
 
 [assets]
 directory = "./public"
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "LIKES"
+id = "49e78f644a334bae81ad7324648fb1ea"
