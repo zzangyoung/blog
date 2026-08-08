@@ -197,6 +197,16 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
+  - source: "./plugins/like-button"
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 25
+  - source: "./plugins/like-button"
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 5
   - source: "@quartz-community/comments"
     enabled: false
     options:
