@@ -4,8 +4,9 @@
 
 <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fblog.zzangyoung.workers.dev&label=%EB%B0%A9%EB%AC%B8%EC%9E%90&icon=eye&color=%23198754" alt="방문자">
 
-## 최근 글
+## 최근 글 
 
+- [[2026.Aug.8]]
 - [[새내기와 졸업예정자]]
 - [[주짓수 1]]
 - [[2026.Aug.5]]
